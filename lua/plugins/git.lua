@@ -17,21 +17,21 @@ return {
     -- =========================================================================
     -- Icons shown in the sign column for different change types
     signs = {
-      add = { text = "▎" }, -- New lines (green by default)
-      change = { text = "▎" }, -- Modified lines (yellow)
-      delete = { text = "" }, -- Deleted lines (shown at deletion point)
-      topdelete = { text = "" }, -- Deleted lines at file top
-      changedelete = { text = "▎" }, -- Changed then deleted
-      untracked = { text = "▎" }, -- New file not yet tracked by git
+      add = { text = "│" }, -- New lines
+      change = { text = "│" }, -- Modified lines
+      delete = { text = "_" }, -- Deleted lines (shown at deletion point)
+      topdelete = { text = "‾" }, -- Deleted lines at file top
+      changedelete = { text = "~" }, -- Changed then deleted
+      untracked = { text = "┆" }, -- New file not yet tracked by git
     },
 
     -- Signs for staged changes (shown differently than unstaged)
     signs_staged = {
-      add = { text = "▎" },
-      change = { text = "▎" },
-      delete = { text = "" },
-      topdelete = { text = "" },
-      changedelete = { text = "▎" },
+      add = { text = "┃" },
+      change = { text = "┃" },
+      delete = { text = "_" },
+      topdelete = { text = "‾" },
+      changedelete = { text = "~" },
     },
 
     -- =========================================================================

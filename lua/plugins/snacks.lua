@@ -71,6 +71,10 @@ return {
 		words = {
 			enabled = true,
 		},
+		-- Minimal statusline
+		statusline = {
+			enabled = true,
+		},
 	},
 	keys = {
 			-- ─────────────────────────────

@@ -25,7 +25,7 @@ return {
 		show_help = false,
 		spec = {
 			{ "<leader>b", group = "Buffer" },
-			{ "<leader>c", group = "Csv", mode = { "n", "v" } },
+			{ "<leader>c", group = "Code", mode = { "n", "v" } },
 			{ "<leader>d", group = "Debug" },
 			{ "<leader>f", group = "Find" },
 			{ "<leader>g", group = "Git" },
@@ -33,6 +33,7 @@ return {
 			{ "<leader>s", group = "Search", mode = { "n", "v" } },
 			{ "<leader>t", group = "Toggle" },
 			{ "<leader>u", group = "Ui" },
+			{ "<leader>x", group = "Diagnostics" },
 		},
 	},
 }
