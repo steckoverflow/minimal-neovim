@@ -35,6 +35,7 @@ return {
 
 			-- Enable treesitter-based highlighting
 			vim.api.nvim_create_autocmd("FileType", {
+				group = vim.api.nvim_create_augroup("treesitter_start", { clear = true }),
 				callback = function()
 					pcall(vim.treesitter.start)
 				end,

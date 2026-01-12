@@ -14,8 +14,8 @@ map("n", "<S-l>", "<cmd>bnext<cr>", { desc = "Next buffer" })
 map("n", "<leader>bd", "<cmd>bdelete<cr>", { desc = "Delete buffer" })
 
 -- Split window keymaps
-vim.keymap.set("n", "<leader>|", ":vsplit<CR>", { desc = "Vertical split" })
-vim.keymap.set("n", "<leader>-", ":split<CR>", { desc = "Horizontal split" })
+map("n", "<leader>|", ":vsplit<CR>", { desc = "Vertical split" })
+map("n", "<leader>-", ":split<CR>", { desc = "Horizontal split" })
 
 -- SAVE, WRITE, CLOSE
 map("n", "<leader>w", function()

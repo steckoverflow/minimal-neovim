@@ -33,7 +33,6 @@ return {
 			{ "<leader>s", group = "Search", mode = { "n", "v" } },
 			{ "<leader>t", group = "Toggle" },
 			{ "<leader>u", group = "Ui" },
-			{ "<leader>x", group = "Diagnostics" },
 		},
 	},
 }
