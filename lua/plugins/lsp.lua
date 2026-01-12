@@ -32,6 +32,8 @@ return {
         "stylua",
         "prettierd",
         "gofumpt",
+        -- Debuggers
+        "debugpy",
       }
 
       vim.defer_fn(function()
