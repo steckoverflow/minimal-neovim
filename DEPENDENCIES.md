@@ -12,10 +12,11 @@ This document lists all plugins used in this Neovim configuration, their purpose
 
 | Plugin | Repository | Purpose |
 |--------|------------|---------|
-| snacks.nvim | `folke/snacks.nvim` | All-in-one utility plugin providing dashboard, file explorer, picker (fuzzy finder), notifications, lazygit integration, indent guides, statusline, and more |
+| snacks.nvim | `folke/snacks.nvim` | All-in-one utility plugin providing dashboard, file explorer, picker (fuzzy finder), notifications, lazygit integration, indent guides, and more |
 | tokyonight.nvim | `folke/tokyonight.nvim` | Color scheme with multiple style variants (night, storm, day, moon) |
 | which-key.nvim | `folke/which-key.nvim` | Displays available keybindings in a popup as you type |
 | smear-cursor.nvim | `sphamba/smear-cursor.nvim` | Animated cursor trail effect for visual feedback on cursor movement |
+| mini.statusline | `echasnovski/mini.statusline` | Minimal and fast statusline with customizable sections |
 | mini.icons | `echasnovski/mini.icons` | Icon provider for UI elements |
 | nvim-web-devicons | `nvim-tree/nvim-web-devicons` | File type icons for various plugins |
 
@@ -73,14 +74,14 @@ This document lists all plugins used in this Neovim configuration, their purpose
 | Category | Count |
 |----------|-------|
 | Plugin Manager | 1 |
-| Core UI & Experience | 6 |
+| Core UI & Experience | 7 |
 | LSP & Completion | 4 |
 | Code Intelligence | 3 |
 | Debugging (DAP) | 9 |
 | Git Integration | 1 |
 | Editing Enhancements | 1 |
 | Utility Libraries | 1 |
-| **Total** | **26** |
+| **Total** | **27** |
 
 ## Configured Language Support
 
