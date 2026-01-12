@@ -22,7 +22,8 @@ opt.hlsearch = true -- Highlight all matches of the search pattern
 opt.incsearch = true -- Show matches incrementally as you type the pattern
 
 -- Appearance
-opt.laststatus = 0 -- Disable statusline (0 = never show)
+opt.laststatus = 2 -- Show statusline (2 = always, 3 = global statusline)
+opt.cmdheight = 0 -- Hide cmdline when not in use
 opt.termguicolors = true -- Enable 24-bit RGB colors (required for modern themes)
 opt.signcolumn = "yes" -- Always show sign column (prevents text shifting)
 opt.cursorline = true -- Highlight the line containing the cursor

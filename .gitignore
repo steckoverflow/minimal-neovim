@@ -1,0 +1,35 @@
+# Lazy.nvim plugin directory
+lazy-lock.json
+
+# Neovim swap, backup, and undo files
+*.swp
+*.swo
+*~
+
+# Neovim shada (shared data)
+shada/
+
+# Mason installed packages (managed by Mason, not git)
+mason/
+
+# Local plugin development
+dev/
+
+# Session files
+Session.vim
+sessions/
+
+# Spell files (generated)
+spell/*.spl
+spell/*.sug
+
+# Local configuration overrides
+lua/config/local.lua
+local.lua
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
