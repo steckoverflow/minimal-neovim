@@ -4,6 +4,7 @@ return {
 		event = { "BufReadPost", "BufNewFile" },
 		cmd = { "TSUpdateSync", "TSUpdate", "TSInstall" },
 		opts = {
+			auto_install = true,
 			ensure_installed = {
 				-- Primary development languages
 				"python",
