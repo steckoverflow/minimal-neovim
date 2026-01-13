@@ -6,4 +6,4 @@ require("config.options")
 require("config.keymaps")
 require("config.autocmds")
 
-vim.cmd.colorscheme("spaceduck")
+vim.cmd.colorscheme("tokyonight")
