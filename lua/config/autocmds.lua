@@ -10,14 +10,3 @@ autocmd("TextYankPost", {
 	end,
 })
 
--- AUTO-RESIZE SPLITS
-autocmd("VimResized", {
-	group = augroup("resize_splits", { clear = true }),
-	callback = function()
-		-- Remember current tab to return to it
-		local current_tab = vim.fn.tabpagenr()
-		-- Equalize splits in all tabs
-		-- Map 'q' to close the window (buffer-local mapping)
-		vim.keymap.set("n", "q", "<cmd>close<cr>", { buffer = event.buf, silent = true })
-	end,
-})
